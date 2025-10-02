@@ -1,12 +1,10 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class WealthChange
+public class WealthChange : MonoBehaviour
 {
-    public GameObject wealthChange;
+    public int wealth = 10;
 
-    void Start()
-    {
-       
-    }
-    
 }
+
