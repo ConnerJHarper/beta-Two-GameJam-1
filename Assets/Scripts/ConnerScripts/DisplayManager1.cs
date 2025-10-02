@@ -39,6 +39,13 @@ public class DisplayManager : MonoBehaviour
         }
     }
 
+    public void StressCheck()
+    {
+
+        
+        
+    }
+
 
             public void DisplayNextStatement()
             {
