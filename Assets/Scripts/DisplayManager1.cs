@@ -48,7 +48,7 @@ public class DisplayManager : MonoBehaviour
                     {
                         choiceButtons[x].gameObject.SetActive(true);
                         choiceButtons[x].transform.GetChild(0).GetComponent<Text>().text = curStatement.choices[x].text;
-                       
+                        
                     }
                     else
                     {
@@ -56,4 +56,6 @@ public class DisplayManager : MonoBehaviour
                     }
                 }
             }
+
+    
 }

@@ -18,10 +18,10 @@ MonoBehaviour:
   choices:
   - text: Yes
     nextStatement: {fileID: 11400000, guid: b559205a119182640b74159218eba7f4, type: 2}
-    wealthchange: 20
-    stresschange: 10
+    wealthChange: 50
+    stress: 0
   - text: No
     nextStatement: {fileID: 11400000, guid: b559205a119182640b74159218eba7f4, type: 2}
-    wealthchange: 0
-    stresschange: 0
+    wealthChange: 40
+    stress: 0
   end: 0
