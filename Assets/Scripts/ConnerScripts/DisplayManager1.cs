@@ -10,6 +10,7 @@ public class DisplayManager : MonoBehaviour
     public Text statementText;
     public Image picture;
     public int MentalValue;
+    public string levelToLoad;
 
     public Button[] choiceButtons;
 
@@ -29,6 +30,7 @@ public class DisplayManager : MonoBehaviour
         if (curStatement.end)
         {
             Debug.Log("You Leave!");
+            SceneManager.LoadScene(levelToLoad);
             
         }
         else
@@ -55,9 +57,14 @@ public class DisplayManager : MonoBehaviour
                     else
                     {
                         choiceButtons[x].gameObject.SetActive(false);
-                    
-            }       }
+             
+                
+                   }
                 }
+
+
+                
+            }   
 }
 
     

@@ -1156,11 +1156,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 317e4d80cb9a31341bd3b15d0a3395b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curStatement: {fileID: 11400000, guid: 33f5e73734139be46877dc503cbf0818, type: 2}
+  curStatement: {fileID: 11400000, guid: b768a3b8a558aa049a88c6f3a9044084, type: 2}
   personText: {fileID: 676640258}
   statementText: {fileID: 992635713}
   picture: {fileID: 288896299}
   MentalValue: 0
+  levelToLoad: Day 3
   choiceButtons:
   - {fileID: 1223165250}
   - {fileID: 974470917}
