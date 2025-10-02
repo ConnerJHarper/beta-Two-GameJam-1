@@ -18,6 +18,6 @@ MonoBehaviour:
   choices:
   - text: 
     nextStatement: {fileID: 0}
-    wealthchange: 0
-    stresschange: 0
+    wealthChange: 321
+    stress: 0
   end: 0
