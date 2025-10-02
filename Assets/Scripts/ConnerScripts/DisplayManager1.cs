@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DisplayManager : MonoBehaviour 
 {
@@ -53,7 +54,8 @@ public class DisplayManager : MonoBehaviour
                     else
                     {
                         choiceButtons[x].gameObject.SetActive(false);
-                    }
+                    
+            }
                 }
             }
 
