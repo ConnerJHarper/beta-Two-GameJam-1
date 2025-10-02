@@ -15,5 +15,9 @@ MonoBehaviour:
   person: Lucy
   statement: The End!!
   picture: {fileID: 0}
-  choices: []
-  end: 0
+  choices:
+  - text: Next Day
+    nextStatement: {fileID: 0}
+    wealthChange: 0
+    stress: 0
+  end: 1

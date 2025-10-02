@@ -16,7 +16,7 @@ MonoBehaviour:
   statement: 
   picture: {fileID: 0}
   choices:
-  - text: 
+  - text: New Day
     nextStatement: {fileID: 0}
     wealthChange: 321
     stress: 0

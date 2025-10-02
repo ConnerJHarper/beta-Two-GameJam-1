@@ -29,6 +29,7 @@ public class DisplayManager : MonoBehaviour
         if (curStatement.end)
         {
             Debug.Log("You Leave!");
+            
         }
         else
         {
@@ -55,9 +56,9 @@ public class DisplayManager : MonoBehaviour
                     {
                         choiceButtons[x].gameObject.SetActive(false);
                     
-            }
+            }       }
                 }
-            }
+}
 
     
-}
+

@@ -17,11 +17,11 @@ MonoBehaviour:
   picture: {fileID: 7985626363670038235, guid: a6362c7f0f95c3a49b6df18c02f40c40, type: 3}
   choices:
   - text: Yes
-    nextStatement: {fileID: 11400000, guid: 2d90df615c32dd04487d9661aea6013a, type: 2}
+    nextStatement: {fileID: 11400000, guid: 8a79da50b60442242807d32111ad2903, type: 2}
     wealthChange: 32
     stress: 0
   - text: No
-    nextStatement: {fileID: 11400000, guid: 2d90df615c32dd04487d9661aea6013a, type: 2}
+    nextStatement: {fileID: 11400000, guid: 8a79da50b60442242807d32111ad2903, type: 2}
     wealthChange: 44
     stress: 0
   end: 0
