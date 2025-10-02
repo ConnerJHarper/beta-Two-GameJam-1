@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
+  m_Name: morn_2
+  m_EditorClassIdentifier: 
+  person: 
+  statement: "Your stomach rumbles. You\u2019re well aware that breakfast is the
+    best way to start the day, and you rifle around the contents of your fridge and
+    then between the cereal boxes. It\u2019s difficult to make a choice between everything
+    available."
+  picture: {fileID: 7985626363670038235, guid: a6362c7f0f95c3a49b6df18c02f40c40, type: 3}
+  choices:
+  - text: Eat breakfast
+    nextStatement: {fileID: 11400000, guid: b50427e2e362c8c4cb272286f624affb, type: 2}
+    wealthChange: -5
+    stress: 0
+  - text: Skip breakfast
+    nextStatement: {fileID: 11400000, guid: b50427e2e362c8c4cb272286f624affb, type: 2}
+    wealthChange: 0
+    stress: 5
+  end: 0

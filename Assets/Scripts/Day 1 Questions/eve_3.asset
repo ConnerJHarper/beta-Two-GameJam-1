@@ -10,18 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: Question 2
+  m_Name: eve_3
   m_EditorClassIdentifier: 
-  person: Monica
-  statement: 'Are you alive? '
+  person: 
+  statement: You turn on your computer to play some video games. You see that your
+    friends are online and you could join them in playing. It will take a lot of
+    energy, but it could be worthwhile.
   picture: {fileID: 7985626363670038235, guid: a6362c7f0f95c3a49b6df18c02f40c40, type: 3}
   choices:
-  - text: Yes
-    nextStatement: {fileID: 11400000, guid: 8a79da50b60442242807d32111ad2903, type: 2}
-    wealthChange: 32
+  - text: Play with friend
+    nextStatement: {fileID: 11400000, guid: 6c5dcc216cd266f4c83a7721330b29db, type: 2}
+    wealthChange: 0
     stress: 0
-  - text: No
-    nextStatement: {fileID: 11400000, guid: 8a79da50b60442242807d32111ad2903, type: 2}
-    wealthChange: 44
+  - text: Play alone
+    nextStatement: {fileID: 11400000, guid: e1c1f932463386441826341cc4e1f1a5, type: 2}
+    wealthChange: 0
     stress: 0
   end: 0

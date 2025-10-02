@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: Question 3
+  m_Name: End
   m_EditorClassIdentifier: 
   person: 
-  statement: 
+  statement: "It\u2019s always good to brush your teeth. You make sure to do so on
+    the way out."
   picture: {fileID: 0}
   choices:
-  - text: New Day
+  - text: Brush teeth
     nextStatement: {fileID: 0}
-    wealthChange: 321
+    wealthChange: 0
     stress: 0
   end: 1
