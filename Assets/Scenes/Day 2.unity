@@ -156,7 +156,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -423.8, y: 205}
+  m_AnchoredPosition: {x: -241, y: 212}
   m_SizeDelta: {x: 218.7128, y: 18.7894}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &93032536
@@ -791,7 +791,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -145.50053, y: 6.866791}
+  m_AnchoredPosition: {x: 37.299454, y: 13.866791}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &740034822
@@ -1082,7 +1082,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -145.50053, y: -18.9}
+  m_AnchoredPosition: {x: 37.299454, y: -11.9}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1103757764
@@ -1161,6 +1161,7 @@ MonoBehaviour:
   statementText: {fileID: 992635713}
   picture: {fileID: 288896299}
   MentalValue: 0
+  loadLevel: Day 3
   choiceButtons:
   - {fileID: 1223165250}
   - {fileID: 974470917}

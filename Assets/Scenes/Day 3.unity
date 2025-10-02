@@ -914,7 +914,7 @@ Transform:
   m_GameObject: {fileID: 915183450}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -305.79944, y: 156.13321, z: 0}
+  m_LocalPosition: {x: -120.99945, y: 163.13321, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -956,6 +956,7 @@ MonoBehaviour:
   statementText: {fileID: 1459483123}
   picture: {fileID: 1454361180}
   MentalValue: 0
+  loadLevel: End Scene
   choiceButtons:
   - {fileID: 486147986}
   - {fileID: 655491002}
@@ -1678,7 +1679,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -423.8, y: 205}
+  m_AnchoredPosition: {x: -239, y: 212}
   m_SizeDelta: {x: 218.7128, y: 18.7894}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1897361670

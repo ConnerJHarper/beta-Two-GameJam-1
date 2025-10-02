@@ -1045,6 +1045,7 @@ MonoBehaviour:
   statementText: {fileID: 1786604585}
   picture: {fileID: 1895866082}
   MentalValue: 0
+  loadLevel: Day 2
   choiceButtons:
   - {fileID: 454361827}
   - {fileID: 2103467348}
