@@ -1448,10 +1448,6 @@ RectTransform:
 <<<<<<< HEAD
   m_AnchoredPosition: {x: -19.0137, y: -62.5402}
   m_SizeDelta: {x: 379.5573, y: 520.3934}
-=======
-  m_AnchoredPosition: {x: -0, y: 0}
-  m_SizeDelta: {x: 393, y: 112}
->>>>>>> Jared3
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1786604584
 CanvasRenderer:
