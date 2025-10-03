@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
+  m_Name: morn_d2_1
+  m_EditorClassIdentifier: 
+  person: 
+  statement: The sun hits your face again. Another day. You check your phone and
+    see messages from your friend.
+  picture: {fileID: 9095853184155359625, guid: 7d6a7472f5621114f8b20323adb282dd, type: 3}
+  choices:
+  - text: Stay in bed and reply
+    nextStatement: {fileID: 11400000, guid: a3431619e0d38134ea20c7f2d9f02bae, type: 2}
+    wealthChange: 0
+    stress: 0
+  - text: Get up
+    nextStatement: {fileID: 11400000, guid: a3431619e0d38134ea20c7f2d9f02bae, type: 2}
+    wealthChange: 0
+    stress: 0
+  end: 0

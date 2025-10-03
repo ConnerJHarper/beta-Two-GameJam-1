@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
+  m_Name: eve_d2_1
+  m_EditorClassIdentifier: 
+  person: 
+  statement: You haven't done much studying today, and you really feel like you should,
+    since you don't know how much you'll get done in the future.
+  picture: {fileID: 0}
+  choices:
+  - text: Study
+    nextStatement: {fileID: 11400000, guid: 3b5d179261d090248a5c86caff140d23, type: 2}
+    wealthChange: 0
+    stress: 10
+  - text: Do not
+    nextStatement: {fileID: 0}
+    wealthChange: 0
+    stress: -5
+  end: 0

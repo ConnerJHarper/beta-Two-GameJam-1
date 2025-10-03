@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
+  m_Name: morn_d2_4
+  m_EditorClassIdentifier: 
+  person: 
+  statement: You brush your teeth once again before leaving.
+  picture: {fileID: 0}
+  choices:
+  - text: Brush teeth
+    nextStatement: {fileID: 11400000, guid: 6df92d78b7dbaa24b98c08f636055fe5, type: 2}
+    wealthChange: 0
+    stress: 0
+  end: 0

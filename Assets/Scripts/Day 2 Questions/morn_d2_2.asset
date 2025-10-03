@@ -10,18 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: Question 2-Day2
+  m_Name: morn_d2_2
   m_EditorClassIdentifier: 
-  person: Monica
-  statement: 'Are you alive? '
+  person: 
+  statement: "As usual, you search around for something to eat. You\u2019ve been
+    doing it often enough to remember the moment it\u2019s the same time it was yesterday."
   picture: {fileID: 7985626363670038235, guid: a6362c7f0f95c3a49b6df18c02f40c40, type: 3}
   choices:
-  - text: Yes
-    nextStatement: {fileID: 11400000, guid: 2d90df615c32dd04487d9661aea6013a, type: 2}
-    wealthChange: 32
+  - text: Eat breakfast
+    nextStatement: {fileID: 11400000, guid: 99f69598e478d124c92980e6a0d46b89, type: 2}
+    wealthChange: -5
     stress: 0
-  - text: No
-    nextStatement: {fileID: 11400000, guid: 2d90df615c32dd04487d9661aea6013a, type: 2}
-    wealthChange: 44
-    stress: 0
+  - text: Skip breakfast
+    nextStatement: {fileID: 11400000, guid: 99f69598e478d124c92980e6a0d46b89, type: 2}
+    wealthChange: 0
+    stress: 5
   end: 0

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
+  m_Name: morn_d2_3
+  m_EditorClassIdentifier: 
+  person: 
+  statement: "You have some extra time to spend. You don\u2019t want to do something
+    that is going to keep you for too long, however there is a book that you\u2019ve
+    been meaning to get through. It takes a lot of focus to sit and read something
+    for a while, but it may do you some good."
+  picture: {fileID: 0}
+  choices:
+  - text: Read
+    nextStatement: {fileID: 11400000, guid: eee730172b7d3d0438d523ce329169be, type: 2}
+    wealthChange: 0
+    stress: -10
+  - text: Do something else
+    nextStatement: {fileID: 11400000, guid: eee730172b7d3d0438d523ce329169be, type: 2}
+    wealthChange: 0
+    stress: 5
+  end: 0

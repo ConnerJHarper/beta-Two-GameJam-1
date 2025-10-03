@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: Question 3-Day2
+  m_Name: noon_d2_2a
   m_EditorClassIdentifier: 
   person: 
-  statement: 
+  statement: You accidentally got too into the film, and skipped your class completely!
+    You feel slightly bad about it, but you didn't want to go to that class anyways.
   picture: {fileID: 0}
   choices:
-  - text: 
-    nextStatement: {fileID: 0}
-    wealthChange: 321
-    stress: 0
-  end: 1
+  - text: Continue
+    nextStatement: {fileID: 11400000, guid: 79504dfe98747e7449853ee0e7e1e5cd, type: 2}
+    wealthChange: 0
+    stress: 15
+  end: 0
