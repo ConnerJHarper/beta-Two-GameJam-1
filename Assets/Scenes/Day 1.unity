@@ -226,8 +226,7 @@ Transform:
   m_LocalPosition: {x: -416.2324, y: 452.9206, z: 0}
   m_LocalScale: {x: 1.9097, y: 1.8398, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1245225225}
+  m_Children: []
   m_Father: {fileID: 654272009}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &390631390
@@ -472,7 +471,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 898161796}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ButtonBehaviour, Assembly-CSharp
         m_MethodName: OnButtonClick
         m_Mode: 1
@@ -783,6 +782,7 @@ RectTransform:
   - {fileID: 454361826}
   - {fileID: 2103467347}
   - {fileID: 1893384886}
+  - {fileID: 1245225225}
   - {fileID: 269250356}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -996,11 +996,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 898161792}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63b005584bb10ad47889bd7a87b63e2b, type: 3}
+  m_Script: {fileID: 11500000, guid: ae92ffddf475db04db908746bf106621, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myButton: {fileID: 454361827}
-  wealthChange: {fileID: 1245225228}
+  wealth: 100
+  wealthText: {fileID: 1245225226}
 --- !u!1 &929146905
 GameObject:
   m_ObjectHideFlags: 0
@@ -1091,7 +1091,6 @@ GameObject:
   - component: {fileID: 1245225225}
   - component: {fileID: 1245225227}
   - component: {fileID: 1245225226}
-  - component: {fileID: 1245225228}
   m_Layer: 5
   m_Name: WealthValue
   m_TagString: Untagged
@@ -1108,14 +1107,14 @@ RectTransform:
   m_GameObject: {fileID: 1245225224}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.9097, y: 1.8398, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 269250356}
+  m_Father: {fileID: 654272009}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 589, y: -263}
+  m_AnchoredPosition: {x: 708.58093, y: -30.946808}
   m_SizeDelta: {x: 167.6473, y: 95.4887}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1245225226
@@ -1160,19 +1159,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245225224}
   m_CullTransparentMesh: 1
---- !u!114 &1245225228
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245225224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae92ffddf475db04db908746bf106621, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wealth: 10
 --- !u!1 &1402550094
 GameObject:
   m_ObjectHideFlags: 0

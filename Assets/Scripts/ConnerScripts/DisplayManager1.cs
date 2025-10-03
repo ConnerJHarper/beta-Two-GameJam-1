@@ -21,6 +21,10 @@ public class DisplayManager : MonoBehaviour
 
     public void ChoiceClicked(int id)
     {
+        Choices chosen = curStatement.choices[id];
+
+        chosen.ApplyChoice();
+
         curStatement = curStatement.choices[id].nextStatement;
         SpecialCondition();
     }

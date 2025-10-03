@@ -11,22 +11,8 @@ public class ButtonBehaviour : MonoBehaviour
 
 
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        if (myButton != null)
-        {
-            myButton.onClick.AddListener(OnButtonClick);
-        }
-
-        
-
-
-    }
-
-    public void OnButtonClick()
-    {
-        choices.AddWealth(wealthChange);
-
-    }
+  
 }
+
+    
+
