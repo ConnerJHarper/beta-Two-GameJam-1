@@ -17,5 +17,8 @@ public class Choices
     {
         Debug.Log("Applying wealth change of " + wealthChange);
         WealthChange.Instance.AddWealth(wealthChange);
+
+        Debug.Log("Applying stress change of " + stress);
+        MentalHealth.Instance.ChangeStress(stress);
     }
 }
