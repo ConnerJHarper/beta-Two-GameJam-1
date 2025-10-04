@@ -64,7 +64,8 @@ public class MentalHealth : MonoBehaviour
     {
         if (stress == 10)
         {
-
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            stress = 0;
         }
     }
 

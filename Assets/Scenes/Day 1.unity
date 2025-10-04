@@ -462,7 +462,7 @@ GameObject:
   - component: {fileID: 434363969}
   - component: {fileID: 434363968}
   m_Layer: 5
-  m_Name: Slider
+  m_Name: Stress Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
