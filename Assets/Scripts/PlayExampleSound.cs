@@ -6,6 +6,6 @@ public class PlayExampleSound : MonoBehaviour
 {
     public void PlaySound()
     {
-        SoundManager.PlaySound(SoundType.Sound1);
+        SoundManager.PlaySound(SoundType.ButtonTest1);
     }
 }
