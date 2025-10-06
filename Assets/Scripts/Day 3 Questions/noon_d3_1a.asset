@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
+  m_Name: noon_d3_1a
+  m_EditorClassIdentifier: 
+  person: 
+  statement: "If you work a bit longer, you could get some more money to take home
+    with you. It\u2019s long, but worth it."
+  picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
+  choices:
+  - text: Keep working
+    nextStatement: {fileID: 11400000, guid: a322bf03bea91ef4ca62640fdbf639e7, type: 2}
+    wealthChange: 25
+    stress: 15
+  - text: Do not
+    nextStatement: {fileID: 11400000, guid: 24d2c9a31f878a6489e528c10184c9dc, type: 2}
+    wealthChange: 0
+    stress: 0
+  end: 0

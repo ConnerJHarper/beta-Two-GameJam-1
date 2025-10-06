@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
+  m_Name: noon_d3_4
+  m_EditorClassIdentifier: 
+  person: 
+  statement: "Your friends are around and you could get lunch with them, but it would
+    be pricey and you\u2019d have to go out of your way."
+  picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
+  choices:
+  - text: Get lunch with friends
+    nextStatement: {fileID: 11400000, guid: 4a38294a25474c5448c68b6699587dc8, type: 2}
+    wealthChange: -10
+    stress: -10
+  - text: Get lunch alone
+    nextStatement: {fileID: 11400000, guid: 4a38294a25474c5448c68b6699587dc8, type: 2}
+    wealthChange: 0
+    stress: 0
+  end: 0
