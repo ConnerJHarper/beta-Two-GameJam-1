@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System;
 
 public enum SoundType
 {
-    Sound1,
-    Sound2
+    ButtonTest1,
+    ButtonTest2
 }
 
 [RequireComponent(typeof(AudioSource)), ExecuteInEditMode]
