@@ -13,17 +13,16 @@ MonoBehaviour:
   m_Name: eve_d5_1
   m_EditorClassIdentifier: 
   person: 
-  statement: "It\u2019s good to get a start on your work so you don\u2019t need to
-    worry about it, but it\u2019s a lot of effort and it would be better to do something
-    enjoyable."
+  statement: You haven't even had the opportunity to play any games uninterrupted
+    today! You could do that, or you could study for a bit.
   picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
+  - text: Play video games
+    nextStatement: {fileID: 11400000, guid: 592f215b8c899fb4f9199fe07f966cf4, type: 2}
+    wealthChange: 0
+    stress: -10
   - text: Study
-    nextStatement: {fileID: 11400000, guid: d3aaefd74732f3c488d08d7abe745c41, type: 2}
+    nextStatement: {fileID: 11400000, guid: 33a95e06c587a8647bea53cbe4b18381, type: 2}
     wealthChange: 0
     stress: 0
-  - text: Do not
-    nextStatement: {fileID: 11400000}
-    wealthChange: 0
-    stress: 10
   end: 0

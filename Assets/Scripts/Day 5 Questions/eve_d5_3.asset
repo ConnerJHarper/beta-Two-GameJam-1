@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: noon_d5_4
+  m_Name: eve_d5_3
   m_EditorClassIdentifier: 
   person: 
-  statement: "It\u2019s good to get a start on your work so you don\u2019t need to
-    worry about it, but it\u2019s a lot of effort and it would be better to do something
-    enjoyable."
+  statement: "You have some time to yourself and it could be good to spend some of
+    it at the gym, getting some exercise. At the same rate, it\u2019s hard to get
+    out, and there are other things you could spend your time doing."
   picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
-  - text: Study
-    nextStatement: {fileID: 11400000, guid: 33a95e06c587a8647bea53cbe4b18381, type: 2}
+  - text: Go to gym
+    nextStatement: {fileID: 11400000, guid: 31445baebecb53540a2d683d93d278ab, type: 2}
+    wealthChange: 0
+    stress: -10
+  - text: "Don\u2019t go to gym"
+    nextStatement: {fileID: 11400000, guid: ec31e622716862145a65c4d2d6c020e5, type: 2}
     wealthChange: 0
     stress: 0
-  - text: Do not
-    nextStatement: {fileID: 11400000, guid: 3b514b9fbadb79743b57818f97c214a1, type: 2}
-    wealthChange: 0
-    stress: 10
   end: 0
