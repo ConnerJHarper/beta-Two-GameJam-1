@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: eve_d2_1
+  m_Name: morn_d4_4
   m_EditorClassIdentifier: 
   person: 
-  statement: You haven't done much studying today, and you really feel like you should,
-    since you don't know how much you'll get done in the future.
-  picture: {fileID: 0}
+  statement: Your plants could do with watering again. It might take a minute, but
+    it will prevent them from dying.
+  picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
-  - text: Study
-    nextStatement: {fileID: 11400000, guid: e35b407ae80ca3749b43479d3f350362, type: 2}
+  - text: Water plants
+    nextStatement: {fileID: 11400000, guid: 0f9e6c8485d543649a7db28fa00ce59d, type: 2}
     wealthChange: 0
-    stress: 5
+    stress: -5
   - text: Do not
-    nextStatement: {fileID: 11400000, guid: a61253d53122ea642b8b9c8fd9d3b56b, type: 2}
+    nextStatement: {fileID: 11400000, guid: bc3bccfde658d6e4b9f23c34f7b1b0a1, type: 2}
     wealthChange: 0
     stress: 10
   end: 0

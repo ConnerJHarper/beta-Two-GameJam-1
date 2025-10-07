@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: End
   m_EditorClassIdentifier: 
   person: 
-  statement: You brush your teeth before getting into bed.
+  statement: It's early, but you're tired. You brush your teeth before getting into
+    bed.
   picture: {fileID: 0}
   choices:
   - text: Brush teeth

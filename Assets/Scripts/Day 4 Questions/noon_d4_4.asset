@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: eve_d2_2
+  m_Name: noon_d4_4
   m_EditorClassIdentifier: 
   person: 
-  statement: Time to choose what to have for dinner again. You consider your options.
-  picture: {fileID: 0}
+  statement: You have time to study now. It would probably be a good idea to.
+  picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
-  - text: Eat out
-    nextStatement: {fileID: 11400000, guid: 2a688317b1283ba4d9ed3f81131e606c, type: 2}
-    wealthChange: -25
-    stress: -10
-  - text: Eat at home
-    nextStatement: {fileID: 11400000, guid: 2a688317b1283ba4d9ed3f81131e606c, type: 2}
+  - text: Study
+    nextStatement: {fileID: 11400000, guid: a79f250982c6f824489aeddaac7b40d2, type: 2}
     wealthChange: 0
     stress: -5
+  - text: Do not
+    nextStatement: {fileID: 11400000, guid: a79f250982c6f824489aeddaac7b40d2, type: 2}
+    wealthChange: 0
+    stress: 10
   end: 0

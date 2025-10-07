@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: End
+  m_Name: End_gym
   m_EditorClassIdentifier: 
   person: 
-  statement: You brush your teeth before getting into bed.
+  statement: You're exhausted from the gym, but you feel good. You brush your teeth
+    before getting into bed.
   picture: {fileID: 0}
   choices:
   - text: Brush teeth

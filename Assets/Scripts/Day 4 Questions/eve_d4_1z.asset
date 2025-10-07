@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: End
+  m_Name: eve_d4_1z
   m_EditorClassIdentifier: 
   person: 
-  statement: You brush your teeth before getting into bed.
-  picture: {fileID: 0}
+  statement: You both finish your meals, pay, and after talking for a bit you return
+    home. It was an enjoyable enough time.
+  picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
-  - text: Brush teeth
-    nextStatement: {fileID: 0}
-    wealthChange: 0
+  - text: Continue
+    nextStatement: {fileID: 11400000, guid: 0cb41743febd94a43b452827bbee0423, type: 2}
+    wealthChange: -25
     stress: 0
-  end: 1
+  end: 0

@@ -10,14 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: End
+  m_Name: eve_d2_4
   m_EditorClassIdentifier: 
   person: 
-  statement: You brush your teeth before getting into bed.
+  statement: You could watch TV or play video games. You're not entirely sure, but
+    it's late so you don't intend to do it for very long.
   picture: {fileID: 0}
   choices:
-  - text: Brush teeth
-    nextStatement: {fileID: 0}
+  - text: Watch TV
+    nextStatement: {fileID: 11400000, guid: 12bec221dee922b4d9780e895bfb80a6, type: 2}
     wealthChange: 0
-    stress: 0
-  end: 1
+    stress: -10
+  - text: Play games
+    nextStatement: {fileID: 11400000, guid: 12bec221dee922b4d9780e895bfb80a6, type: 2}
+    wealthChange: 0
+    stress: -5
+  end: 0

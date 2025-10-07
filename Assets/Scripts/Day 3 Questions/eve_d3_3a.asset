@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: eve_d2_2
+  m_Name: eve_d3_3a
   m_EditorClassIdentifier: 
   person: 
-  statement: Time to choose what to have for dinner again. You consider your options.
-  picture: {fileID: 0}
+  statement: You could have more. It would be fun.
+  picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
-  - text: Eat out
-    nextStatement: {fileID: 11400000, guid: 2a688317b1283ba4d9ed3f81131e606c, type: 2}
-    wealthChange: -25
-    stress: -10
-  - text: Eat at home
-    nextStatement: {fileID: 11400000, guid: 2a688317b1283ba4d9ed3f81131e606c, type: 2}
+  - text: Drink
+    nextStatement: {fileID: 11400000, guid: c12870fdc24c9f8418943edc59abb9c5, type: 2}
+    wealthChange: -15
+    stress: 10
+  - text: Do not
+    nextStatement: {fileID: 11400000, guid: ba199b5ab00f36b4785aeba44b458cf1, type: 2}
     wealthChange: 0
     stress: -5
   end: 0

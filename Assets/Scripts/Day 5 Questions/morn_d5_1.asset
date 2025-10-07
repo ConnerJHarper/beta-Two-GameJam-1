@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
+  m_Name: morn_d5_1
+  m_EditorClassIdentifier: 
+  person: 
+  statement: Your eyes flitter open. Today is the last day that you have lectures
+    this week. You pick up your phone and see a text from one of your friends.
+  picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
+  choices:
+  - text: Get up
+    nextStatement: {fileID: 11400000, guid: 3754ab7097d42914794bf4b64a2915b5, type: 2}
+    wealthChange: 0
+    stress: 0
+  - text: Respond
+    nextStatement: {fileID: 11400000, guid: 3945e6b5dfe1533458985d81d3ffb7e5, type: 2}
+    wealthChange: 0
+    stress: 5
+  end: 0

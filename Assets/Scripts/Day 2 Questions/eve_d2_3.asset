@@ -10,18 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: eve_d2_2
+  m_Name: eve_d2_3
   m_EditorClassIdentifier: 
   person: 
-  statement: Time to choose what to have for dinner again. You consider your options.
+  statement: "You hear that there\u2019s a party going on soon. A few people there
+    you will know, but most of the people there you will not. It\u2019s daunting,
+    but it\u2019s potentially a good time."
   picture: {fileID: 0}
   choices:
-  - text: Eat out
-    nextStatement: {fileID: 11400000, guid: 2a688317b1283ba4d9ed3f81131e606c, type: 2}
-    wealthChange: -25
+  - text: Go to the party
+    nextStatement: {fileID: 11400000, guid: d2cd975057c42624693b2482b341c17f, type: 2}
+    wealthChange: 0
     stress: -10
-  - text: Eat at home
-    nextStatement: {fileID: 11400000, guid: 2a688317b1283ba4d9ed3f81131e606c, type: 2}
+  - text: Do not go
+    nextStatement: {fileID: 11400000, guid: e6041fa444fbbf5469ef8ed3a4332d3e, type: 2}
     wealthChange: 0
     stress: -5
   end: 0

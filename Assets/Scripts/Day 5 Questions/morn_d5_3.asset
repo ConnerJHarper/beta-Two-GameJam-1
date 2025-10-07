@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: eve_d2_1
+  m_Name: morn_d5_3
   m_EditorClassIdentifier: 
   person: 
-  statement: You haven't done much studying today, and you really feel like you should,
-    since you don't know how much you'll get done in the future.
-  picture: {fileID: 0}
+  statement: It's good to study. You should study. You'd be getting ahead of your
+    work.
+  picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
   - text: Study
-    nextStatement: {fileID: 11400000, guid: e35b407ae80ca3749b43479d3f350362, type: 2}
-    wealthChange: 0
-    stress: 5
-  - text: Do not
-    nextStatement: {fileID: 11400000, guid: a61253d53122ea642b8b9c8fd9d3b56b, type: 2}
+    nextStatement: {fileID: 11400000, guid: e0643962d08c3a549b5556161caa780d, type: 2}
     wealthChange: 0
     stress: 10
+  - text: Do not
+    nextStatement: {fileID: 11400000, guid: 33c680aaa4ada7043b1c48a9f1bb0dfa, type: 2}
+    wealthChange: 0
+    stress: 0
   end: 0

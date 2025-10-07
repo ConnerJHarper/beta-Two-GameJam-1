@@ -10,14 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: End
+  m_Name: eve_d2_3a
   m_EditorClassIdentifier: 
   person: 
-  statement: You brush your teeth before getting into bed.
+  statement: While at the party you see someone who appears as if he doesn't want
+    to be there. You strike up a conversation with him and he tells you that he was
+    dragged there by a friend. The both of you understand how hard it is to be social
+    sometimes.
   picture: {fileID: 0}
   choices:
-  - text: Brush teeth
-    nextStatement: {fileID: 0}
+  - text: Continue
+    nextStatement: {fileID: 11400000, guid: d2dfaf8ca2d156b4a906a97a5c5076ec, type: 2}
     wealthChange: 0
-    stress: 0
-  end: 1
+    stress: -10
+  end: 0
