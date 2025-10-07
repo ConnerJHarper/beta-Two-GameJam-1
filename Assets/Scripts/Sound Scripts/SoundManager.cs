@@ -3,8 +3,17 @@ using System;
 
 public enum SoundType
 {
-    ButtonTest1,
-    ButtonTest2
+    DefaultButtonClick,
+    BedSheets,
+    Breakfast,
+    WateringPlants,
+    BrushingTeeth,
+    CarStart,
+    Writing,
+    Typing,
+    VideoGames,
+    OpenCan,
+    DoorClose
 }
 
 [RequireComponent(typeof(AudioSource)), ExecuteInEditMode]

@@ -384,153 +384,6 @@ RectTransform:
   m_AnchoredPosition: {x: -19.0137, y: -62.5402}
   m_SizeDelta: {x: 379.5573, y: 520.3934}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &560738291
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 560738294}
-  - component: {fileID: 560738293}
-  - component: {fileID: 560738292}
-  m_Layer: 0
-  m_Name: SoundManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &560738292
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560738291}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &560738293
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560738291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e03788ef0f7576645804229e46d310c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundList:
-  - name: ButtonTest1
-    sounds: []
-  - name: ButtonTest2
-    sounds: []
---- !u!4 &560738294
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 560738291}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &575277247
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,6 +940,182 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 982877262}
   m_CullTransparentMesh: 1
+--- !u!1 &1008571362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1008571365}
+  - component: {fileID: 1008571364}
+  - component: {fileID: 1008571363}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1008571363
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008571362}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1008571364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008571362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e03788ef0f7576645804229e46d310c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundList:
+  - name: DefaultButtonClick
+    sounds:
+    - {fileID: 8300000, guid: dcda4a72776919845b21117b1e44d862, type: 3}
+  - name: BedSheets
+    sounds:
+    - {fileID: 8300000, guid: fa8822f339fd1de4289fb69d38fec1e6, type: 3}
+  - name: Breakfast
+    sounds:
+    - {fileID: 8300000, guid: 58ae95e657c16544b9d208f5e8a662db, type: 3}
+  - name: WateringPlants
+    sounds:
+    - {fileID: 8300000, guid: aa80829a08cb8134889e672314c7ced9, type: 3}
+  - name: BrushingTeeth
+    sounds:
+    - {fileID: 8300000, guid: f98cb1fce195b8c44a7d590ed7c144a8, type: 3}
+  - name: CarStart
+    sounds:
+    - {fileID: 8300000, guid: 629c934b0743dc241a481d4d8ce70af0, type: 3}
+  - name: Writing
+    sounds:
+    - {fileID: 8300000, guid: e07e938d9271dbf48827d72daf546836, type: 3}
+  - name: Typing
+    sounds:
+    - {fileID: 8300000, guid: 9b92f42739e0b574a97ab35762862ec6, type: 3}
+  - name: VideoGames
+    sounds:
+    - {fileID: 8300000, guid: cfb82324cb53e4640a08c2988c0f5b8e, type: 3}
+  - name: OpenCan
+    sounds:
+    - {fileID: 8300000, guid: 8b4d80558ff9e53409a9c33b44455b9b, type: 3}
+  - name: DoorClose
+    sounds:
+    - {fileID: 8300000, guid: 72d906ab4fd8dad488ca3a358feb36b7, type: 3}
+--- !u!4 &1008571365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008571362}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1030864386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,6 +1320,7 @@ GameObject:
   - component: {fileID: 1398653826}
   - component: {fileID: 1398653825}
   - component: {fileID: 1398653824}
+  - component: {fileID: 1398653827}
   m_Layer: 5
   m_Name: Choice 2
   m_TagString: Untagged
@@ -1362,6 +1392,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1398653827}
+        m_TargetAssemblyTypeName: ButtonSounds, Assembly-CSharp
+        m_MethodName: PlayNow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1882323536}
         m_TargetAssemblyTypeName: DisplayManager, Assembly-CSharp
         m_MethodName: ChoiceClicked
@@ -1412,6 +1454,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1398653822}
   m_CullTransparentMesh: 1
+--- !u!114 &1398653827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1398653822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb6be43306aebd4b961ec458fc7e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rules:
+  - match: Get up
+    sound: 1
+    volume: 0.5
+  - match: Go alone
+    sound: 10
+    volume: 0.5
+  - match: Play games
+    sound: 8
+    volume: 0.5
+  caseInsensitive: 1
+  playFallbackIfNoRule: 1
+  fallbackSound: 0
+  defaultVolume: 0.5
+  _lastRuleCount: 3
 --- !u!1 &1441927665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1508,6 +1577,7 @@ GameObject:
   - component: {fileID: 1515407379}
   - component: {fileID: 1515407378}
   - component: {fileID: 1515407377}
+  - component: {fileID: 1515407381}
   m_Layer: 5
   m_Name: Choice 1
   m_TagString: Untagged
@@ -1559,10 +1629,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1882323536}
-        m_TargetAssemblyTypeName: DisplayManager, Assembly-CSharp
-        m_MethodName: ChoiceClicked
-        m_Mode: 3
+      - m_Target: {fileID: 1515407381}
+        m_TargetAssemblyTypeName: ButtonSounds, Assembly-CSharp
+        m_MethodName: PlayNow
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1571,10 +1641,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ButtonBehaviour, Assembly-CSharp
-        m_MethodName: OnButtonClick
-        m_Mode: 1
+      - m_Target: {fileID: 1882323536}
+        m_TargetAssemblyTypeName: DisplayManager, Assembly-CSharp
+        m_MethodName: ChoiceClicked
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1641,6 +1711,51 @@ RectTransform:
   m_AnchoredPosition: {x: -215, y: -470}
   m_SizeDelta: {x: 305.5562, y: 55.1948}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1515407381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515407376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb6be43306aebd4b961ec458fc7e05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rules:
+  - match: Stay in bed and reply
+    sound: 7
+    volume: 0.5
+  - match: Eat breakfast
+    sound: 2
+    volume: 0.5
+  - match: Brush teeth
+    sound: 4
+    volume: 0.5
+  - match: Go to class on time
+    sound: 5
+    volume: 0.25
+  - match: Go to gym
+    sound: 5
+    volume: 0.25
+  - match: Go with friend
+    sound: 10
+    volume: 0.25
+  - match: Study
+    sound: 6
+    volume: 1
+  - match: Eat out
+    sound: 10
+    volume: 0.25
+  - match: Go to the party
+    sound: 10
+    volume: 0.25
+  caseInsensitive: 1
+  playFallbackIfNoRule: 1
+  fallbackSound: 0
+  defaultVolume: 0.5
+  _lastRuleCount: 9
 --- !u!1 &1547564625
 GameObject:
   m_ObjectHideFlags: 0
@@ -2211,5 +2326,5 @@ SceneRoots:
   - {fileID: 1030864390}
   - {fileID: 1441927667}
   - {fileID: 690958463}
-  - {fileID: 560738294}
   - {fileID: 1888719415}
+  - {fileID: 1008571365}

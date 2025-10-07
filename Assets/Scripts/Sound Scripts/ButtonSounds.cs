@@ -45,23 +45,21 @@ public class ButtonSounds : MonoBehaviour, IPointerDownHandler
     {
         if (defaultVolume == 0f) defaultVolume = 0.5f;
 
-        if (rules != null)
+        if (rules == null) { _lastRuleCount = 0; return; }
+
+        if (rules.Count > _lastRuleCount)
         {
-            if (rules.Count > _lastRuleCount)
+            for (int i = _lastRuleCount; i < rules.Count; i++)
             {
-                for (int i = _lastRuleCount; i < rules.Count; i++)
-                {
-                    var r = rules[i];
-                    if (r.volume == 0f) r.volume = defaultVolume;
-                    rules[i] = r;
-                }
+                var r = rules[i];
+                r.match = string.Empty;
+                r.sound = default;
+                r.volume = defaultVolume;
+                rules[i] = r;
             }
-            _lastRuleCount = rules.Count;
         }
-        else
-        {
-            _lastRuleCount = 0;
-        }
+
+        _lastRuleCount = rules.Count;
     }
 
     public void OnPointerDown(PointerEventData e)
