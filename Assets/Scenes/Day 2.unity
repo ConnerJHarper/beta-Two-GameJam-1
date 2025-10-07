@@ -512,9 +512,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundList:
-  - name: Sound1
+  - name: ButtonTest1
     sounds: []
-  - name: Sound2
+  - name: ButtonTest2
     sounds: []
 --- !u!4 &560738294
 Transform:
@@ -1993,7 +1993,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 317e4d80cb9a31341bd3b15d0a3395b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curStatement: {fileID: 11400000, guid: 33f5e73734139be46877dc503cbf0818, type: 2}
+  curStatement: {fileID: 11400000, guid: b768a3b8a558aa049a88c6f3a9044084, type: 2}
   personText: {fileID: 575277248}
   statementText: {fileID: 523333141}
   picture: {fileID: 848124713}
