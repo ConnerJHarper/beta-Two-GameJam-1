@@ -18,7 +18,7 @@ MonoBehaviour:
   picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
   - text: Continue
-    nextStatement: {fileID: 11400000, guid: 6b402f8d6fbb25b4183eb5c2c9f5923b, type: 2}
+    nextStatement: {fileID: 11400000, guid: 066fd1098952e53499b1d71831810886, type: 2}
     wealthChange: 0
     stress: 10
   end: 0

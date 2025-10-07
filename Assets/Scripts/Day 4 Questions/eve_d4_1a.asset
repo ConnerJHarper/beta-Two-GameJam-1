@@ -10,15 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: eve_d3_1b
+  m_Name: eve_d4_1a
   m_EditorClassIdentifier: 
   person: 
-  statement: The show is about a macho man who sets out for revenge and takes no
-    prisoners. It's mindless, but it's fun.
+  statement: You almost arrive late, and he's there waiting for you. After ordering,
+    he asks how you've been.
   picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
-  - text: Continue
-    nextStatement: {fileID: 11400000, guid: 066fd1098952e53499b1d71831810886, type: 2}
+  - text: Say you are well
+    nextStatement: {fileID: 11400000, guid: 0b76c2f7a30c591409ab8d87aff5d400, type: 2}
+    wealthChange: 0
+    stress: 10
+  - text: Respond honestly
+    nextStatement: {fileID: 11400000, guid: 4a9cfcc158a129943a67b5027e28dddf, type: 2}
     wealthChange: 0
     stress: 10
   end: 0

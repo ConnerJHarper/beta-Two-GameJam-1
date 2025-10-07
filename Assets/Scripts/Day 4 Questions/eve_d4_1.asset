@@ -10,15 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: eve_d3_1b
+  m_Name: eve_d4_1
   m_EditorClassIdentifier: 
   person: 
-  statement: The show is about a macho man who sets out for revenge and takes no
-    prisoners. It's mindless, but it's fun.
+  statement: It's best you head off to dinner now. Your friend is waiting. You're
+    kind of scared to go but you might have to.
   picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
-  - text: Continue
-    nextStatement: {fileID: 11400000, guid: 066fd1098952e53499b1d71831810886, type: 2}
+  - text: Go to dinner
+    nextStatement: {fileID: 11400000, guid: 30d87ad5e301c2846a5edb88477f4d83, type: 2}
+    wealthChange: 0
+    stress: 5
+  - text: Cancel
+    nextStatement: {fileID: 11400000, guid: f39b6a57128cb174fb62d6b810dc428a, type: 2}
     wealthChange: 0
     stress: 10
   end: 0

@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: eve_d3_2
   m_EditorClassIdentifier: 
   person: 
-  statement: You turn on the TV. You could either watch the news, or watch a drama.
+  statement: Nobody is around to hang out, and you don't have the energy to go out,
+    but you could order yourself dinner this evening if you feel so inclined. It
+    would be a nice little thing.
   picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
-  - text: News
+  - text: Order dinner
     nextStatement: {fileID: 11400000, guid: 9713ec16e17d7ad418a09a69f600dbdc, type: 2}
-    wealthChange: 0
-    stress: 0
-  - text: Drama
+    wealthChange: -25
+    stress: 10
+  - text: Cook
     nextStatement: {fileID: 11400000, guid: 27e5319ad676e2143832691c5ea04e30, type: 2}
-    wealthChange: 0
-    stress: 0
+    wealthChange: -10
+    stress: -5
   end: 0

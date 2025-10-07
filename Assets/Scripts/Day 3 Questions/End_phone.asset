@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: eve_d3_1b
+  m_Name: End_phone
   m_EditorClassIdentifier: 
   person: 
-  statement: The show is about a macho man who sets out for revenge and takes no
-    prisoners. It's mindless, but it's fun.
-  picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
+  statement: Somehow, you've let time slip. It's 1:30am. Probably best to get sleep.
+  picture: {fileID: 0}
   choices:
   - text: Continue
-    nextStatement: {fileID: 11400000, guid: 066fd1098952e53499b1d71831810886, type: 2}
+    nextStatement: {fileID: 0}
     wealthChange: 0
-    stress: 10
-  end: 0
+    stress: 15
+  end: 1

@@ -21,7 +21,7 @@ MonoBehaviour:
   - text: Go to work
     nextStatement: {fileID: 11400000, guid: 6b402f8d6fbb25b4183eb5c2c9f5923b, type: 2}
     wealthChange: 50
-    stress: 10
+    stress: 5
   - text: Do not
     nextStatement: {fileID: 11400000, guid: 7a0670e671bd0a942ab0d1ab0f64f297, type: 2}
     wealthChange: 0

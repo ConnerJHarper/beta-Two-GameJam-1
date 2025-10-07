@@ -10,15 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: eve_d3_1b
+  m_Name: noon_d5_3
   m_EditorClassIdentifier: 
   person: 
-  statement: The show is about a macho man who sets out for revenge and takes no
-    prisoners. It's mindless, but it's fun.
+  statement: You don't feel like eating lunch with your friends today. You don't
+    know whether to use the things you already have at home or get lunch at the shop.
   picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
-  - text: Continue
-    nextStatement: {fileID: 11400000, guid: 066fd1098952e53499b1d71831810886, type: 2}
-    wealthChange: 0
+  - text: Get lunch at shop
+    nextStatement: {fileID: 11400000, guid: c1c74fc58d85afa48babeae169945840, type: 2}
+    wealthChange: -10
     stress: 10
+  - text: Make lunch at home
+    nextStatement: {fileID: 11400000, guid: c1c74fc58d85afa48babeae169945840, type: 2}
+    wealthChange: -5
+    stress: 0
   end: 0

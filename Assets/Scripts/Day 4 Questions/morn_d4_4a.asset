@@ -10,15 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c78f4cbc0a979e14e903b49241fa95ac, type: 3}
-  m_Name: eve_d3_1b
+  m_Name: morn_d4_4a
   m_EditorClassIdentifier: 
   person: 
-  statement: The show is about a macho man who sets out for revenge and takes no
-    prisoners. It's mindless, but it's fun.
+  statement: It took slightly too long, and now you're late for class! You could
+    go in late, or you could just skip it.
   picture: {fileID: 621222158458474870, guid: 483a5cf70ceb8d84ea0517bc93ae9d82, type: 3}
   choices:
-  - text: Continue
-    nextStatement: {fileID: 11400000, guid: 066fd1098952e53499b1d71831810886, type: 2}
+  - text: Go to class late
+    nextStatement: {fileID: 11400000, guid: b559205a119182640b74159218eba7f4, type: 2}
+    wealthChange: 0
+    stress: -5
+  - text: Skip class
+    nextStatement: {fileID: 11400000, guid: bec7f9f190aa0a148a1eb8c739b509c0, type: 2}
     wealthChange: 0
     stress: 10
   end: 0
