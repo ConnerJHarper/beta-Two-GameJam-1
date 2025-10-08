@@ -6,11 +6,13 @@ public class MentalHealth : MonoBehaviour
 {
     public static MentalHealth Instance;
 
-    public int stress = 0;
+    public int stress = 100;
     public int maxStress = 100;
 
     public Slider stressSlider;
 
+
+    
     private void Awake()
     {
         if (Instance == null)
@@ -25,9 +27,14 @@ public class MentalHealth : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        UpdateStressUI();
+    }
+
     public void ChangeStress(int amount)
     {
-        stress -= amount;
+        stress += amount;
         stress = Mathf.Clamp(stress, 0, maxStress); // keep stress in 0..maxStress
         UpdateStressUI();
         Debug.Log("Current Stress = " + stress);
@@ -42,7 +49,7 @@ public class MentalHealth : MonoBehaviour
 
         if (stressSlider != null)
         {
-            stressSlider.value = (float)stress / maxStress; // normalize 0..1
+            stressSlider.value = ((float)stress / maxStress);
         }
         else
         {
@@ -53,6 +60,7 @@ public class MentalHealth : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         UpdateStressUI();
+       
     }
 
     private void OnDestroy()
@@ -62,10 +70,10 @@ public class MentalHealth : MonoBehaviour
 
     void Update()
     {
-        if (stress == 100)
+        if (stress == 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            stress = 0;
+            stress = maxStress;
         }
     }
 
