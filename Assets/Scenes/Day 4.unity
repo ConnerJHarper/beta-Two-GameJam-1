@@ -1110,7 +1110,6 @@ GameObject:
   - component: {fileID: 1330371569}
   - component: {fileID: 1330371572}
   - component: {fileID: 1330371571}
-  - component: {fileID: 1330371570}
   m_Layer: 5
   m_Name: WealthValue
   m_TagString: Untagged
@@ -1137,20 +1136,6 @@ RectTransform:
   m_AnchoredPosition: {x: 708.58093, y: -30.946808}
   m_SizeDelta: {x: 167.6473, y: 95.4887}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1330371570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1330371568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ae92ffddf475db04db908746bf106621, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wealth: 10
-  wealthText: {fileID: 0}
 --- !u!114 &1330371571
 MonoBehaviour:
   m_ObjectHideFlags: 0
