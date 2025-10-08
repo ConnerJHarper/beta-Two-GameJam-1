@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class WealthChange : MonoBehaviour
@@ -13,13 +14,21 @@ public class WealthChange : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject); // optional
+            DontDestroyOnLoad(gameObject);
+            SceneManager.sceneLoaded += OnSceneLoaded;
         }
-        else
+        else if (Instance != this)
         {
             Destroy(gameObject);
+            return;
         }
     }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        UpdateWealthUI();
+    }
+
 
     private void Start()
     {
@@ -33,7 +42,7 @@ public class WealthChange : MonoBehaviour
         Debug.Log("TotalWealth = " + wealth);
     }
 
-    private void UpdateWealthUI()
+    public void UpdateWealthUI()
     {
         // Try to find the Text component automatically after scene loads
         wealthText = GameObject.Find("WealthValue")?.GetComponent<Text>();
@@ -45,6 +54,13 @@ public class WealthChange : MonoBehaviour
         {
             Debug.LogError("Wealth Text is missing in the scene!");
         }
+    }
+
+    private void OnDestroy()
+    {
+        if (Instance == this)
+            SceneManager.sceneLoaded -= OnSceneLoaded;
+        UpdateWealthUI();
     }
 }
 
