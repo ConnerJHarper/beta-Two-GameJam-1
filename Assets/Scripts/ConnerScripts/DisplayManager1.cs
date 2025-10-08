@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class DisplayManager : MonoBehaviour 
 {
@@ -35,12 +36,19 @@ public class DisplayManager : MonoBehaviour
         {
             SceneManager.LoadScene(loadLevel);
             Debug.Log("You Leave!");
+            StartCoroutine(RefreshWealthAfterSceneLoad());
             
         }
         else
         {
             DisplayNextStatement();
         }
+    }
+
+    private IEnumerator RefreshWealthAfterSceneLoad()
+    {
+        yield return null;
+        WealthChange.Instance.UpdateWealthUI();
     }
 
 
