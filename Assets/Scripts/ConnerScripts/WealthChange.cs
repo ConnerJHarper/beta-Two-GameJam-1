@@ -32,7 +32,7 @@ public class WealthChange : MonoBehaviour
 
     private void Start()
     {
-        UpdateWealthUI(); // show the starting wealth on UI right away
+        UpdateWealthUI();
     }
 
     public void AddWealth(int amount)
@@ -44,7 +44,7 @@ public class WealthChange : MonoBehaviour
 
     public void UpdateWealthUI()
     {
-        // Try to find the Text component automatically after scene loads
+       
         wealthText = GameObject.Find("WealthValue")?.GetComponent<Text>();
         if (wealthText != null)
         {
@@ -52,6 +52,7 @@ public class WealthChange : MonoBehaviour
         }
         else
         {
+            SceneManager.LoadScene("End Scene");
             Debug.LogError("Wealth Text is missing in the scene!");
         }
     }
