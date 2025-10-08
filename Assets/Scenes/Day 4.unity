@@ -1414,7 +1414,7 @@ MonoBehaviour:
   rules:
   - match: Get up
     sound: 1
-    volume: 0.5
+    volume: 1
   - match: Respond
     sound: 7
     volume: 0.5
@@ -1442,7 +1442,7 @@ MonoBehaviour:
   - match: Go to dinner
     sound: 10
     volume: 0.25
-  - match: 
+  - match: Brush teeth
     sound: 0
     volume: 0.5
   caseInsensitive: 1

@@ -1414,7 +1414,7 @@ MonoBehaviour:
   rules:
   - match: Get up
     sound: 1
-    volume: 0.5
+    volume: 1
   - match: Fry up
     sound: 2
     volume: 0.5

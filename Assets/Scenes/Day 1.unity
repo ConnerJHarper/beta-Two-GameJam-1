@@ -735,7 +735,7 @@ MonoBehaviour:
     volume: 0.5
   - match: Make bed
     sound: 1
-    volume: 0.5
+    volume: 1
   caseInsensitive: 1
   playFallbackIfNoRule: 1
   fallbackSound: 0

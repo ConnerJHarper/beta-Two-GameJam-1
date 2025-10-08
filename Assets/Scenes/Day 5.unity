@@ -1238,7 +1238,7 @@ MonoBehaviour:
   rules:
   - match: Get up
     sound: 1
-    volume: 0.5
+    volume: 1
   - match: Tell him
     sound: 7
     volume: 0.5
