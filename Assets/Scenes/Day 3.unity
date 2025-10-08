@@ -1439,8 +1439,8 @@ MonoBehaviour:
   - match: Use phone
     sound: 7
     volume: 0.5
-  - match: 
-    sound: 0
+  - match: Brush teeth
+    sound: 4
     volume: 0.5
   caseInsensitive: 1
   playFallbackIfNoRule: 1
