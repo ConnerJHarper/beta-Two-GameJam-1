@@ -7,7 +7,7 @@ public class MentalHealth : MonoBehaviour
     public static MentalHealth Instance;
 
     public int stress = 0;
-    public int maxStress = 10;
+    public int maxStress = 100;
 
     public Slider stressSlider;
 
@@ -27,7 +27,7 @@ public class MentalHealth : MonoBehaviour
 
     public void ChangeStress(int amount)
     {
-        stress += amount;
+        stress -= amount;
         stress = Mathf.Clamp(stress, 0, maxStress); // keep stress in 0..maxStress
         UpdateStressUI();
         Debug.Log("Current Stress = " + stress);
@@ -62,7 +62,7 @@ public class MentalHealth : MonoBehaviour
 
     void Update()
     {
-        if (stress == 20)
+        if (stress == 100)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             stress = 0;

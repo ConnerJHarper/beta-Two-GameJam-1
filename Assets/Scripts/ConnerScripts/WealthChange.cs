@@ -6,7 +6,7 @@ public class WealthChange : MonoBehaviour
 {
     public static WealthChange Instance;
 
-    public int wealth = 0;        // starting wealth (editable in Inspector)
+    public int wealth = 100;        // starting wealth (editable in Inspector)
     public Text wealthText;       // drag your UI Text here in Inspector
 
     private void Awake()
@@ -61,6 +61,16 @@ public class WealthChange : MonoBehaviour
         if (Instance == this)
             SceneManager.sceneLoaded -= OnSceneLoaded;
         UpdateWealthUI();
+    }
+
+    private void Update()
+    {
+        if (wealth == 0)
+        {
+            SceneManager.LoadScene("End Scene");
+            Destroy(gameObject);
+            
+        }
     }
 }
 

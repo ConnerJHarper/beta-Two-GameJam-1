@@ -1,17 +1,16 @@
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class ButtonBehaviour : MonoBehaviour
 {
-    public Button myButton;
-    public WealthChange wealthChange;
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("Day 1");
+    }
 
-    private Choices choices = new Choices();
-
-
-
-  
 }
 
     

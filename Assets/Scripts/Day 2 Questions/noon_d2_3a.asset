@@ -22,4 +22,4 @@ MonoBehaviour:
     nextStatement: {fileID: 11400000, guid: 5213a7b06a458b14e871c5a8b81d5bbd, type: 2}
     wealthChange: 0
     stress: 15
-  end: 0
+  end: 1
