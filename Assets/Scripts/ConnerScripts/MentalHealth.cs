@@ -6,15 +6,17 @@ public class MentalHealth : MonoBehaviour
 {
     public static MentalHealth Instance;
 
+    // We will set stress and maximum stress values to public to access in unity inspector 
     public int stress = 100;
     public int maxStress = 100;
+
 
     public Slider stressSlider;
 
 
-    
     private void Awake()
     {
+       
         if (Instance == null)
         {
             Instance = this;
@@ -23,29 +25,33 @@ public class MentalHealth : MonoBehaviour
         }
         else
         {
+            
             UpdateStressUI();
         }
     }
 
     private void Start()
     {
+        // Update stress UI when game first starts 
         UpdateStressUI();
     }
 
     public void ChangeStress(int amount)
     {
+        // We will add the amount and stress together then put the output back into the stress value 
         stress += amount;
-        stress = Mathf.Clamp(stress, 0, maxStress); // keep stress in 0..maxStress
+        stress = Mathf.Clamp(stress, 0, maxStress);
         UpdateStressUI();
-        Debug.Log("Current Stress = " + stress);
     }
 
     private void UpdateStressUI()
     {
         if (stressSlider == null)
         {
+            // We will find stress slider in order to change this within this script
             stressSlider = GameObject.Find("StressSlider")?.GetComponent<Slider>();
         }
+
 
         if (stressSlider != null)
         {
@@ -53,7 +59,7 @@ public class MentalHealth : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Stress Slider not found in scene: " + SceneManager.GetActiveScene().name);
+           // We will leave this blank 
         }
     }
 
@@ -65,11 +71,13 @@ public class MentalHealth : MonoBehaviour
 
     private void OnDestroy()
     {
+        
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
     void Update()
     {
+        // If stress equals 0 we will move on to the end screen 
         if (stress == 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

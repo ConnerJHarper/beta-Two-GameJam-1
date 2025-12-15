@@ -8,10 +8,10 @@ public class Choices
     public string text;
     public Statement nextStatement;
 
-    public int wealthChange; // starting value (make sure it's initialized properly)
+    public int wealthChange; 
     public int stress;
 
-    // Adds wealth from WealthChange and updates UI
+    
 
     public void ApplyChoice()
     {

@@ -1218,7 +1218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 317e4d80cb9a31341bd3b15d0a3395b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curStatement: {fileID: 11400000, guid: 33f5e73734139be46877dc503cbf0818, type: 2}
+  currentStatement: {fileID: 11400000, guid: 33f5e73734139be46877dc503cbf0818, type: 2}
   personText: {fileID: 929146906}
   statementText: {fileID: 1786604585}
   picture: {fileID: 1895866082}

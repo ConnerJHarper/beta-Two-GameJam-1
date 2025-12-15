@@ -6,8 +6,8 @@ public class WealthChange : MonoBehaviour
 {
     public static WealthChange Instance;
 
-    public int wealth = 100;        // starting wealth (editable in Inspector)
-    public Text wealthText;       // drag your UI Text here in Inspector
+    public int wealth = 100;        
+    public Text wealthText;      
 
     private void Awake()
     {
@@ -32,39 +32,43 @@ public class WealthChange : MonoBehaviour
 
     private void Start()
     {
-        UpdateWealthUI(); // show the starting wealth on UI right away
+        UpdateWealthUI();
     }
 
     public void AddWealth(int amount)
     {
+        // We will add the amount of wealth to original wealth then add that back into the wealth value to display on UI. 
         wealth += amount;
         UpdateWealthUI();
-        Debug.Log("TotalWealth = " + wealth);
     }
 
     public void UpdateWealthUI()
     {
-        // Try to find the Text component automatically after scene loads
+        // Search for the wealth value text component 
         wealthText = GameObject.Find("WealthValue")?.GetComponent<Text>();
         if (wealthText != null)
         {
+            // We will add a pound symbol to start of the wealth value. 
             wealthText.text = "£" + wealth.ToString();
         }
         else
         {
-            Debug.LogError("Wealth Text is missing in the scene!");
+            // This will tell us that the wealth text is NULL
+            Debug.LogError("Wealth Text is NULL");
         }
     }
 
     private void OnDestroy()
     {
+
         if (Instance == this)
-            SceneManager.sceneLoaded -= OnSceneLoaded;
+        SceneManager.sceneLoaded -= OnSceneLoaded;
         UpdateWealthUI();
     }
 
     private void Update()
     {
+        // If wealth = 0 then we will 
         if (wealth == 0)
         {
             SceneManager.LoadScene("End Scene");

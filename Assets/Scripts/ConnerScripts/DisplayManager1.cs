@@ -5,7 +5,7 @@ using System.Collections;
 
 public class DisplayManager : MonoBehaviour 
 {
-    public Statement curStatement; 
+    public Statement currentStatement; 
 
     public Text personText;
     public Text statementText;
@@ -22,20 +22,19 @@ public class DisplayManager : MonoBehaviour
 
     public void ChoiceClicked(int id)
     {
-        Choices chosen = curStatement.choices[id];
+        Choices chosen = currentStatement.choices[id];
 
         chosen.ApplyChoice();
 
-        curStatement = curStatement.choices[id].nextStatement;
+        currentStatement = currentStatement.choices[id].nextStatement;
         SpecialCondition();
     }
 
     public void SpecialCondition()
     {
-        if (curStatement.end)
+        if (currentStatement.end)
         {
             SceneManager.LoadScene(loadLevel);
-            Debug.Log("You Leave!");
             StartCoroutine(RefreshWealthAfterSceneLoad());
             
         }
@@ -54,16 +53,16 @@ public class DisplayManager : MonoBehaviour
 
             public void DisplayNextStatement()
             {
-                personText.text = curStatement.person;
-                statementText.text = curStatement.statement;
-                picture.sprite = curStatement.picture;
+                personText.text = currentStatement.person;
+                statementText.text = currentStatement.statement;
+                picture.sprite = currentStatement.picture;
 
                 for (int x = 0; x < choiceButtons.Length; x++)
                 {
-                    if (x < curStatement.choices.Length)
+                    if (x < currentStatement.choices.Length)
                     {
                         choiceButtons[x].gameObject.SetActive(true);
-                        choiceButtons[x].transform.GetChild(0).GetComponent<Text>().text = curStatement.choices[x].text;
+                        choiceButtons[x].transform.GetChild(0).GetComponent<Text>().text = currentStatement.choices[x].text;
                         
                     }
                     else
